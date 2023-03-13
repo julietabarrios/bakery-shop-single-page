@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GF Bakery Shop</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    
+
     <!-- topbar  -->
         <!-- heading -->
         <!-- navigation -->
@@ -33,7 +34,7 @@
         <!-- button -->
     <!-- end splash screen -->
 
-    <section>
+    <section id="splashscreen">
         <h1>Dear GF: local bakery shop</h1>
         <h2>We have fresh cookies and muffins!</h2>
         <a href=""><button>Discover our products</button></a>
@@ -63,10 +64,14 @@
     <section id="gallery">
         <h1>Gallery</h1>
         <a href="#top">Top</a>
-        <img src="./images/photo1jpg.jpg" alt="Building and products">
-        <img src="./images/bread.jpg" alt="Bread types">
-        <img src="./images/place.jpg" alt="Distribution of the shop">
-        <img src="./images/019b7579940e04e463e1364ab3f0727c.jpg" alt="How it looks the shop">
+        <article id="gallery_grid">
+                <img src="./images/photo1jpg.jpg" alt="Building and products">
+                <img src="./images/place.jpg" alt="Distribution of the shop">
+                <img src="./images/019b7579940e04e463e1364ab3f0727c.jpg" alt="How it looks the shop">
+            <div>
+            <img src="./images/bread.jpg" alt="Bread types">
+            </div>
+        </article>
     </section>
 
     <!-- products explanation -->
@@ -82,6 +87,7 @@
     <section id="products">
         <h1>Products</h1>
         <a href="#top">Top</a>
+        <div id="products_grid">
             <article>
                 <h2>Hojaldre de Fruta</h2>
                 <img src="./images/hojaldre fruta.png" alt="Hojaldre de Fruta">
@@ -112,6 +118,7 @@
                 <img src="./images/numeros.png" alt="Numbers and letters">
                 <p>Many flavours and designs availables</p>
             </article>
+        </div>
     </section>
 
     <!-- gallery -->
@@ -123,12 +130,14 @@
     <section id="team">
         <h1>Team</h1>
         <a href="#top">Top</a>
-        <img src="./images/baker1.jpg" alt="Paula Rivas">
-        <img src="./images/baker2.jpg" alt="Leo Montero">
-        <img src="./images/baker3.jpg" alt="Pablo Casas">
-        <img src="./images/baker4.jfif" alt="Maria Callejon">
-        <img src="./images/baker5.jpg" alt="Stella McAdams">
-        <img src="./images/baker6.jfif" alt="Marisa Obra">
+        <article id="team_grid">
+            <img src="./images/baker1.jpg" alt="Paula Rivas">
+            <img src="./images/baker2.jpg" alt="Leo Montero">
+            <img src="./images/baker3.jpg" alt="Pablo Casas">
+            <img src="./images/baker4.jfif" alt="Maria Callejon">
+            <img src="./images/baker5.jpg" alt="Stella McAdams">
+            <img src="./images/baker6.jfif" alt="Marisa Obra">
+        </article>
     </section>
 
   <!-- footer -->
@@ -139,7 +148,7 @@
     <!-- end footer -->
 
     <footer>
-        <p>Copyright 2023 Dear GF | Created by Julieta Barrios</p>
+        <p id="copyright">Copyright 2023 Dear GF | Created by Julieta Barrios</p>
         <adress>C/ de Balmes, 106, 08008 Barcelona</adress>
         <p><a href='tel:+341133429160'>Call Us</a></p>
         <p>We open every day from 10am to 20pm</p>

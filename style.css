@@ -1,0 +1,83 @@
+img{
+    width: 100%;
+}
+
+footer {
+    background-color:rgb(226, 190, 165);
+    color: black;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#copyright {
+    font-size: large;
+}
+
+ #top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(226, 190, 165);
+}
+
+#top ul {
+    display:flex;
+    list-style:none;
+}
+
+#top ul li {
+    margin-right:1em;
+}
+
+#splashscreen {
+    text-align:center;
+    background-image:url(./images/background4.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 100vh ;
+    color:rgb(226, 190, 165);
+}
+
+#location {
+    text-align:center;
+    align-items:center;
+    height:100vh;
+}
+
+iframe {
+    width:100%;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#gallery_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
+    }
+
+#gallery_grid div{
+        grid-column: 1/-1;
+        text-align:center;}
+
+#gallery, #products, #team {
+    text-align:center;
+}
+
+#team_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+a:link, a:visited{ 
+    color: black;
+}
+
+#products_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10em;
+    margin:10px;
+}
