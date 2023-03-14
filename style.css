@@ -166,28 +166,28 @@ a:hover{
     .hamburger {
         position: relative;
         display: inline-block;
-      }
-      .hamburger-content {
+    }
+    .hamburger-content {
         display: none;
         position: absolute;
         left:-100px;
         z-index:1;
-      }
-      .hamburger:hover .hamburger-content {
+    }
+    .hamburger:hover .hamburger-content {
         display: block;
       }
-      .hamburger span {
+    .hamburger span {
         transition: transform .5s;
       -webkit-transition: -webkit-transform .5s;
         display: block;
         transform: rotate(90deg);
-      }
-      .hamburger:hover span {
+    }
+    .hamburger:hover span {
         transition: transform .5s;
       -webkit-transition: -webkit-transform .5s;
         display: inline-block;
         transform: rotate(180deg);
-      }
+    }
     #top{
         justify-content:space-around;
         list-style:none;
