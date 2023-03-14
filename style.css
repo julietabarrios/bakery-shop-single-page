@@ -61,6 +61,8 @@ footer {
     color:rgb(226, 190, 165);
     padding: 80px 40px;
     font-size: 30px;
+    margin-bottom: 20px;
+    height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -97,6 +99,9 @@ iframe {
 
 #gallery, #products, #team {
     text-align:center;
+    padding-top: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -107,7 +112,7 @@ iframe {
 }
 #team{
     height:100vh;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #team_grid{
@@ -135,8 +140,8 @@ a:hover{
 #products_grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10em;
-    margin:10px;
+    margin:50px;
+    row-gap:5em;
 }
 
 #products h2{
