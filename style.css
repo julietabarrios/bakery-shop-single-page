@@ -11,7 +11,9 @@ button {
     width: 180px;
     height: 45px;
 }
-
+body{
+    margin:0px;
+}
 footer {
     background-color:rgb(226, 190, 165);
     color: white;
@@ -70,6 +72,7 @@ footer {
     text-align:center;
     align-items:center;
     height:100vh;
+    margin-bottom: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -111,7 +114,6 @@ iframe {
     align-content: center;
 }
 #team{
-    height:100vh;
     padding-bottom: 50px;
 }
 
