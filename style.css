@@ -11,9 +11,14 @@ button {
     width: 180px;
     height: 45px;
 }
+
+button:hover{
+    background-color: white;
+}
 body{
     margin:0px;
 }
+
 footer {
     background-color:rgb(224, 159, 113);
     color: black;
@@ -46,7 +51,6 @@ footer {
     border-left-color: black;
     border-left-width: 1px;
     border-left-style: solid;
-    color:white;
 }
 
 #top ul li {
@@ -135,6 +139,7 @@ nav a:link, a:visited{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
 a:hover{ 
     color: rgb(143, 6, 6);
 }
@@ -170,8 +175,10 @@ a:hover{
     .hamburger-content {
         display: none;
         position: absolute;
-        left:-100px;
+        bottom: -75px;
+        left: -30px;
         z-index:1;
+        background-color: rgb(224, 159, 113);
     }
     .hamburger:hover .hamburger-content {
         display: block;
@@ -190,8 +197,16 @@ a:hover{
     }
     #top{
         justify-content:space-around;
-        list-style:none;
+        list-style: none;
     }
+    a:link, a:visited{ 
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    a:hover{ 
+        color: rgb(143, 6, 6);
+    }
+    
 }
 
 @media all and (max-width:460px){
@@ -232,5 +247,12 @@ a:hover{
     #top{
         justify-content:space-around;
         list-style:none;
+    }
+    a:link, a:visited{ 
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    a:hover{ 
+        color: rgb(143, 6, 6);
     }
 }
