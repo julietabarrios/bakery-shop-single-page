@@ -2,15 +2,30 @@ img{
     width: 100%;
 }
 
+button {
+    background-color: rgb(226, 190, 165);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0px;
+    border-color: rgb(226, 190, 165) ;
+    color: beige;
+    width: 180px;
+    height: 45px;
+}
+
 footer {
     background-color:rgb(226, 190, 165);
-    color: black;
+    color: white;
     text-align:center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 #copyright {
-    font-size: large;
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
 }
 
  #top{
@@ -18,11 +33,18 @@ footer {
     justify-content:space-between;
     align-items: center;
     background-color: rgb(226, 190, 165);
+    margin-bottom: 10px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #top ul {
     display:flex;
     list-style:none;
+    border-left-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color:white;
 }
 
 #top ul li {
@@ -37,12 +59,16 @@ footer {
     background-position:center;
     height: 100vh ;
     color:rgb(226, 190, 165);
+    padding: 80px 40px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #location {
     text-align:center;
     align-items:center;
     height:100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 iframe {
@@ -59,10 +85,26 @@ iframe {
 
 #gallery_grid div{
         grid-column: 1/-1;
-        text-align:center;}
+        text-align:center;
+    }
+
+#products img{
+    width: 60%;
+}
 
 #gallery, #products, #team {
     text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#gallery, #team {
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding-bottom: 30px;
+}
+#team{
+    height:100vh;
+    padding-bottom: 30px;
 }
 
 #team_grid{
@@ -71,8 +113,20 @@ iframe {
     gap: 1em;
 }
 
+nav a:link, a:visited{ 
+    text-decoration: none;
+}
+
 a:link, a:visited{ 
-    color: black;
+    color: blue;
+}
+
+nav a:link, a:visited{ 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{ 
+    color: rgb(143, 6, 6);
 }
 
 #products_grid{
@@ -81,3 +135,8 @@ a:link, a:visited{
     gap: 10em;
     margin:10px;
 }
+
+#products h2{
+    font-size: 18px;
+}
+
