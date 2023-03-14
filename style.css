@@ -54,15 +54,16 @@ footer {
 }
 
 #splashscreen {
-    text-align:center;
     background-image:url(./images/background4.jfif);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     height: 100vh ;
     color:rgb(226, 190, 165);
-    padding: 80px 40px;
     font-size: 30px;
+    align-items:center;
+    text-align: center;
+    display:flex;
     margin-bottom: 20px;
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -150,3 +151,15 @@ a:hover{
     font-size: 18px;
 }
 
+@media all and (max-width:800px){
+    #products_grid, #team_grid, #gallery_grid{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media all and (max-width:460px){
+    #products_grid, #team_grid, #gallery_grid{
+        grid-template-columns: 1fr;
+    }
+}
